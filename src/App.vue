@@ -115,6 +115,7 @@ watch(name, (newVal) => {
 
           <div class="actions">
             <button class="delete" @click="removeTodo(todo)">Delete</button>
+            <button class="edit">Edit</button>
           </div>
         </div>
       </div>
